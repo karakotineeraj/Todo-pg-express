@@ -1,0 +1,20 @@
+{
+  "name": "todorestfulapi",
+  "version": "1.0.0",
+  "description": "A simple todo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "serverstart": "DEBUG=todorestfulapi:* npm run start" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
